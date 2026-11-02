@@ -1,187 +1,70 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Humberto Portfolio</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Exo|Vollkorn&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/ceb5966b17.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <div class="nav-container">
-      <nav role="navigation navbar-collapse">
-        <input type="checkbox" id="nav-toggle" />
-        <label for="nav-toggle" class="burger-menu">
-          <i class="fas fa-bars"></i>
-        </label>
-        <div class="left-menu">
-          <a href="#mainH1">Home</a>
-          <a href="#projectSection">Projects</a>
-          <a class="mobileVeiwAboutMe" href="#aboutH2">About Me</a>
-        </div>
-        <!-- placholder remove when done  -->
-        <!-- <a href="#" class="logo">Logo</a> -->
-      </nav>
-    </div>
-
-    <main role="main">
-      <header role="banner">
-        <!-- Place holder for background image -->
-        <!-- <h1>Hero</h1> -->
-      </header>
-
-      <div id="mainH1" class="mainPage">
-        <section class="top dskTopHeadline">
-          <h1 class="headline">
-            Hello, My name is Humberto Hernandez. I’m a full-stack developer and
-            overall a problem-solving wizard!
-          </h1>
-        </section>
-
-        <section class="top dskTopMyImage mobileImg">
-          <img 
-            class="selfImage"
-            src="assests/portfolioImg (1).jpg"
-            alt="humberto"
-          />
-        </section>
-
-        <section class="top desktopVeiw dskTopBio">
-          <h2>Bio</h2>
-          <p>
-            I am a full-stack developer and currently a student at Thinkful
-            Bootcamp for software engineering. My passion for coding stems from
-            my experiences in tinkering with all aspects of technology from my
-            childhood to the present day! Whether fixing VHS players, repairing
-            circuit boards, or programming, I have always been enthusiastic
-            about breaking down technology to understand it and figuring out how
-            to fix it or improve it. Solving problems is what continues to
-            motivate me whether that be a simple issue or something complex like
-            learning different programming languages.
-          </p>
-          <br />
-          <p>
-            My personal interests not related to technology include astronomy,
-            video games, and Schutzhund (Training dogs for protection).
-            Additionally, I enjoy reading about military history and studying
-            various military strategies from ancient times to the current day.
-            When I need to get outside or release stress I enjoy rowing,
-            mountain biking, or hiking.
-          </p>
-        </section>
-
-        <Section class="top desktopVeiw dskTopContactIcons">
-          <!-- Icons to GitHub, Linkedin, Email -->
-          <a href="https://github.com/WiFiCowboy"><i class="devicon-github-plain-wordmark js-gitHubAcct"></i></a>
-          <a href="https://www.linkedin.com/in/humberto-hernandez-12081b132/"><i class="fab fa-linkedin-in js-linkdin"></i></a>
-          <a href="mailto:"><i class="fas fa-envelope js-email"></i></a>
-          
-          
-          
-        </Section>
-
-        <!-- Place holder if needed -->
-        <!-- <section class="top desktopVeiw dskTopContactInfo">
-          Contact Info
-        </section> -->
-
-        <section class="top mobileView">
-          <a href="#projectSection" class="myProjects">Projects</a>
-        </section>
-      </div>
-
-      <div id="projectSection" class="projectPage">
-        <section class="mid mobileView pageTitle">
-          <h2>My Projects</h2>
-        </section>
-
-        <section  class="mid dskTopProjectImage projectImgWrapper">
-          <!-- Change this for desktop view -->
-          <img
-          id="quizAppImg"
-            src="assests/quizAppMobile .png"
-            alt="theMatrixQuiz"
-          />
-          <h3 class="mobileProjectTitle">Quiz App</h3>
-        </section>
-
-        <section class="mid desktopVeiw dskTopDispTech">
-          <h2>Tech List</h2>
-          <i class="devicon-html5-plain-wordmark"></i>
-          <i class="devicon-css3-plain-wordmark"></i>
-          <i class="devicon-javascript-plain"></i>
-          <i class="devicon-jquery-plain-wordmark"></i>
-        </section>
-
-        <section class="mid desktopVeiw dskTopProjectInfo">
-          <h3>Quiz App</h3>
-          <p>A quiz app to test the user’s knowledge on a topic. The user is given a prompt to start the quiz, the user is then prompted by a series of questions and multiple choice answers, as the user answers questions a score is tallied up. At the end of the quiz, the user’s score is displayed with the ability to restart the quiz.</p>
-        </section>
-
-        <section class="mid mobileView mobileTechDisplay">
-          <i class="devicon-html5-plain-wordmark"></i>
-          <i class="devicon-css3-plain-wordmark"></i>
-          <i class="devicon-javascript-plain"></i>
-          <i class="devicon-jquery-plain-wordmark"></i>
-        </section>
-
-        <section class="mid dskTopRepoLinks mobileRepoLive">
-          <a href="https://github.com/WiFiCowboy/HTML-wireframe"><i class="devicon-github-plain-wordmark js-gitHubQuizRepo"></i></a>
-          <a href="https://wificowboy.github.io/HTML-wireframe/"><i class="fas fa-play-circle js-liveApp"></i></a>
-        </section>
-      </div>
-
-      <div id="aboutH2" class="aboutMePage mobileAboutMe">
-        <section class="bottom mobileView">
-          <h2>About Me</h2>
-        </section>
-
-        <section class="bottom mobileView">
-          <p>
-            I am a full-stack developer and currently a student at Thinkful
-            Bootcamp for software engineering. My passion for coding stems from
-            my experiences in tinkering with all aspects of technology from my
-            childhood to the present day! Whether fixing VHS players, repairing
-            circuit boards, or programming, I have always been enthusiastic
-            about breaking down technology to understand it and figuring out how
-            to fix it or improve it. Solving problems is what continues to
-            motivate me whether that be a simple issue or something complex like
-            learning different programming languages.<br />
-            My personal interests not related to technology include astronomy,
-            video games, and Schutzhund (Training dogs for protection).
-            Additionally, I enjoy reading about military history and studying
-            various military strategies from ancient times to the current day.
-            When I need to get outside or release stress I enjoy rowing,
-            mountain biking, or hiking.
-          </p>
-        </section>
-
-        <Section class="bottom mobileView mobileContactIcons">
-          <!-- Icons to GitHub, Linkedin, Email -->
-          <a href="https://github.com/WiFiCowboy"><i class="devicon-github-plain-wordmark js-gitHubAcct"></i></a>
-          <a href="https://www.linkedin.com/in/humberto-hernandez-12081b132/"><i class="fab fa-linkedin-in js-linkdin"></i></a>
-          <a href="mailto:"><i class="fas fa-envelope js-email"></i></a>
-        </Section>
-
-        <section class="bottom mobileView">
-          <!-- <footer>Contact Me at: <a href="mailto:">hamburger45@gmail.com</a></footer> -->
-        </section>
-      </div>
-    </main>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-  </body>
-</html>
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Humberto Hernandez — field engineering, infrastructure systems integration, and technical operations. Explore experience, engineering approach, and validated personal projects.">
+<meta name="theme-color" content="#152d35">
+<title>Humberto Hernandez — Field → System → Mission</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="identity" href="#home" aria-label="Humberto Hernandez home"><span class="monogram" aria-hidden="true">HH<span>.</span></span><span>HUMBERTO<br>HERNANDEZ</span></a>
+  <nav aria-label="Main navigation"><a href="#approach">Approach</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a class="nav-resume" href="https://www.linkedin.com/in/humbertohernandez1220" target="_blank" rel="noopener" aria-label="View résumé in LinkedIn Featured">Résumé <span aria-hidden="true">↗</span></a></nav>
+</header>
+<main id="main">
+<section class="hero wrap" id="home" aria-labelledby="hero-title">
+  <div class="hero-copy"><p class="eyebrow"><span class="orange-line"></span> FIELD ENGINEERING · SYSTEMS INTEGRATION</p>
+    <h1 id="hero-title">Understand the field.<br><span>Connect the system.</span><br>Move the mission.</h1>
+    <p class="intro">I’m Humberto Hernandez. I connect field conditions, infrastructure requirements, and the people doing the work to build clearer engineering handoffs.</p>
+    <div class="hero-actions"><a class="button primary" href="#experience">Explore my experience <span aria-hidden="true">↓</span></a><a class="text-link" href="#projects">See the project evidence <span aria-hidden="true">↗</span></a></div>
+    <p class="hero-meta">POMONA, CALIFORNIA <span aria-hidden="true">/</span> NETWORK ENGINEER <span aria-hidden="true">/</span> MILITARY VETERAN</p>
+  </div>
+  <div class="field-map" role="img" aria-label="Illustration of field observations connecting through a network to an engineering handoff. It represents the approach, not a real network design.">
+    <div class="map-grid"></div><span class="map-label top-label">FIELD NOTES / SYSTEM VIEW</span>
+    <svg viewBox="0 0 480 540" fill="none" aria-hidden="true">
+      <path d="M60 135H180V265H325V410H415M60 410H180V265M325 265V135H415" stroke="#57777d" stroke-width="2"/>
+      <path d="M60 135H180V265H325V410H415" stroke="#ee855d" stroke-width="3" stroke-dasharray="7 6"/>
+      <path d="M180 55V485M25 265H450" stroke="#36535b" stroke-dasharray="3 7"/>
+      <rect x="34" y="109" width="52" height="52" rx="2" fill="#213f48" stroke="#a8bebc"/>
+      <path d="M48 145L60 123L72 145M52 138H68" stroke="#dbe5df" stroke-width="2"/>
+      <circle cx="180" cy="265" r="31" fill="#152d35" stroke="#ee855d" stroke-width="2"/>
+      <circle cx="180" cy="265" r="8" fill="#ee855d"/>
+      <rect x="300" y="240" width="50" height="50" rx="2" fill="#213f48" stroke="#a8bebc"/>
+      <path d="M312 255H338M312 265H338M312 275H328" stroke="#dbe5df" stroke-width="2"/>
+      <circle cx="415" cy="135" r="7" fill="#9db9b7"/><circle cx="60" cy="410" r="7" fill="#9db9b7"/>
+      <circle cx="415" cy="410" r="16" fill="#ee855d"/><path d="M408 410L413 415L422 405" stroke="#152d35" stroke-width="2.5"/>
+    </svg>
+    <span class="map-note n1">01 / OBSERVE<br><b>Field conditions</b></span><span class="map-note n2">02 / CONNECT<br><b>Dependencies</b></span><span class="map-note n3">03 / CLARIFY<br><b>Engineering handoff</b></span>
+    <span class="map-label bottom-label">ILLUSTRATIVE / NOT A LIVE NETWORK</span>
+  </div>
+</section>
+<div class="signal-strip"><div class="wrap strip-inner"><p>FIELD <span>→</span> SYSTEM <span>→</span> MISSION</p><span>Engineering physical systems. Architecting better execution.</span></div></div>
+<section class="section wrap approach" id="approach" aria-labelledby="approach-title">
+  <div class="section-intro"><p class="eyebrow">01 / HOW I WORK</p><h2 id="approach-title">Start where the plan<br>meets reality.</h2><p>My work has moved from frontline management to operational development and network engineering. The questions have become broader. The starting point stays practical.</p></div>
+  <div class="principles">
+    <article><span class="index">01</span><div><h3>Understand the conditions</h3><p>What is there? What needs to change? I assess access, existing infrastructure, equipment placement, grounding, and the constraints that shape the work.</p></div></article>
+    <article><span class="index">02</span><div><h3>Connect the dependencies</h3><p>Who owns each part? I reconcile requirements and source documents, identify gaps, and make responsibilities clear before the next handoff.</p></div></article>
+    <article><span class="index">03</span><div><h3>Make the next decision clear</h3><p>What is ready, and what still needs evidence? I use practical documentation and human-directed AI workflows while retaining responsibility within my assigned scope.</p></div></article>
+  </div>
+</section>
+<section class="experience-section" id="experience" aria-labelledby="experience-title"><div class="wrap">
+  <div class="section-heading"><div><p class="eyebrow">02 / EXPERIENCE</p><h2 id="experience-title">A career built<br>from the field outward.</h2></div><p>Three roles at AT&amp;T. An expanding view of how people, technical requirements, and information affect execution.</p></div>
+  <article class="role"><div class="role-meta"><span class="role-number">01</span><p>DEC 2021 — PRESENT</p><span>Orange County, California</span></div><div class="role-body"><span class="company">AT&amp;T</span><h3>Sr Specialist Network Engineer</h3><p class="role-lead">Connect field conditions, OSP design requirements, and construction needs.</p><ul><li>Assess site conditions and responsibility boundaries; coordinate fiber routing and cellular infrastructure design updates.</li><li>Develop site-walk packages, process job aids, and guidance that make engineering handoffs clear.</li><li>Use human-directed Microsoft 365 Copilot workflows with defined inputs, review steps, and project sessions. Reconcile outputs against source documents and maintain validated tracking records.</li></ul></div></article>
+  <article class="role"><div class="role-meta"><span class="role-number">02</span><p>APR 2011 — DEC 2021</p><span>Los Angeles County, California</span></div><div class="role-body"><span class="company">AT&amp;T</span><h3>Technology Operations<br class="desktop-break"> Development Coach</h3><p class="role-lead">Connect performance data, technical requirements, and field execution.</p><ul><li>Developed managers and frontline personnel through practical coaching and leader-led training.</li><li>Analyzed metrics and processes to identify gaps affecting network efficiency, execution quality, and training effectiveness.</li><li>Provided leadership with findings to support coaching priorities, cost-focused decisions, and process improvements.</li></ul></div></article>
+  <article class="role"><div class="role-meta"><span class="role-number">03</span><p>APR 2007 — APR 2011</p><span>Los Angeles County, California</span></div><div class="role-body"><span class="company">AT&amp;T</span><h3>Network Services Manager</h3><p class="role-lead">Prepare the team and hold people accountable for field execution.</p><ul><li>Managed frontline personnel supporting U-verse, IPTV, and VoIP operations.</li><li>Trained direct reports, addressed performance gaps, and applied established operating and disciplinary procedures.</li><li>Served as an AT&amp;T liaison with union representatives on operational and personnel matters.</li></ul></div></article>
+</div></section>
+<section class="section wrap projects" id="projects" aria-labelledby="projects-title">
+  <div class="section-heading"><div><p class="eyebrow">03 / PROJECT EVIDENCE</p><h2 id="projects-title">Make the reasoning<br>inspectable.</h2></div><p>Personal demonstrations of a field problem: an assessment can finish while the conditions needed to proceed remain unmet.</p></div>
+  <div class="project-layout"><div class="project-copy"><p class="project-type">PERSONAL PROJECTS / PYTHON / 2026</p><h3>WHITE RABBIT<br><span>+ FORGE Core</span></h3><p>WHITE RABBIT evaluates synthetic power, connectivity, and access evidence. FORGE Core coordinates one bounded dispatch and checks the returned result against the mission and evidence.</p><p>I directed the scope, reviewed the implementation, and ran validation on my Mac. AI assisted with architecture, code, tests, and documentation.</p><div class="project-links"><a class="text-link" href="https://github.com/WiFiCowboy/white-rabbit" target="_blank" rel="noopener">Inspect the repository <span aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/WiFiCowboy/white-rabbit/blob/main/forge_core/CASE_STUDY.md" target="_blank" rel="noopener">Read the architecture case study <span aria-hidden="true">↗</span></a></div></div>
+  <div class="evidence-panel"><div class="panel-top"><span class="dot"></span> OBSERVED BLOCKED SCENARIO <span class="panel-id">WR-MISSING</span></div><div class="result-row"><span>Execution</span><b>COMPLETED</b></div><div class="result-row"><span>Reconciliation</span><b>ACCEPTED</b></div><div class="result-row"><span>Mission</span><b class="blocked">BLOCKED</b></div><div class="result-row"><span>Connectivity evidence</span><b class="blocked">MISSING</b></div><div class="result-row"><span>Human decision</span><b>PENDING</b></div><p class="panel-conclusion">The assessment finished.<br>The mission still needs evidence.</p><p class="panel-foot">Documented walkthrough output · Synthetic local records</p></div></div>
+  <div class="validation-bar"><div><strong>31</strong><span>passing unit tests<br>across both components</span></div><div><strong>1</strong><span>bounded dispatch<br>with a five-second timeout</span></div><div><strong>Human</strong><span>decision boundary<br>retained throughout</span></div></div>
+  <details class="project-details"><summary>What this demonstrates — and its limits <span aria-hidden="true">+</span></summary><div><p>Tests cover missing and conflicting evidence, forged references, input changes, dispatch limits, failures, and timeouts. Both suites passed on macOS (Unix).</p><p>This is a deterministic Python demonstration using synthetic local data. It is a personal portfolio project, separate from AT&amp;T work. It has no live enterprise integration and takes no deployment action. The test results support the tested behavior; they do not establish production readiness.</p></div></details>
+</section>
+<section class="foundation-section"><div class="wrap foundation"><div><p class="eyebrow">04 / TECHNICAL FOUNDATION</p><h2>Field experience.<br>Software perspective.</h2><p>Software training gives me another way to examine information flow, execution controls, and the tools people use to do the work.</p></div><div class="foundation-list"><div><h3>Applied tools</h3><p>Microsoft 365 Copilot, Excel, OneNote, Teams, and SharePoint. Python, JSON, Git, GitHub, unit testing, and Markdown in personal projects.</p></div><div><h3>Software engineering training</h3><p>Thinkful · Completed June 2020</p><p>Full-stack frontend and backend web development, JavaScript, Node.js, React, Redux, algorithms, and data structures.</p></div><div><h3>Programming foundation</h3><p>Udacity · Intro to Programming Nanodegree · 2018</p></div><div><h3>Technical service and credential</h3><p>U.S. Navy, U.S. Air Force, and U.S. Army Reserve veteran.<br>FCC General Radiotelephone Operator License (GROL).</p></div></div></div></section>
+<section class="contact-section wrap" id="contact"><p class="eyebrow">CONTINUE THE CONVERSATION</p><h2>Let’s talk about the work.</h2><p>Field engineering, infrastructure integration, deployment, and technical operations.</p><div class="contact-links"><a class="button primary" href="https://www.linkedin.com/in/humbertohernandez1220" target="_blank" rel="noopener">Connect on LinkedIn <span aria-hidden="true">↗</span></a><a class="text-link" href="https://www.linkedin.com/in/humbertohernandez1220" target="_blank" rel="noopener">View résumé on LinkedIn <span aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/WiFiCowboy" target="_blank" rel="noopener">Explore GitHub <span aria-hidden="true">↗</span></a></div></section>
+</main>
+<footer><div class="wrap footer-inner"><a href="#home" aria-label="Back to top">HUMBERTO HERNANDEZ <span aria-hidden="true">↑</span></a><p>Execute better than yesterday, quietly.</p><span>© 2026</span></div></footer>
+</body></html>
