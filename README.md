@@ -8,7 +8,7 @@ https://wificowboy.github.io/Portfolio/
 
 ## Implementation
 
-Buildless HTML and responsive CSS with an inline SVG illustration. No frameworks, packages, API keys, or build step. Native browser navigation and disclosure controls keep the content accessible without JavaScript. Site assets are served locally using relative paths. Resume links lead to the LinkedIn profile's Featured section. A GitHub-hosted PDF is not included.
+Buildless HTML and responsive CSS with an inline SVG illustration. No frameworks, packages, API keys, or build step. Native browser navigation and disclosure controls keep the content accessible without JavaScript. The resume PDF and site assets are served locally using relative paths. The reviewed resume was explicitly authorized for public GitHub hosting by Humberto Hernandez.
 
 ## Project evidence
 
